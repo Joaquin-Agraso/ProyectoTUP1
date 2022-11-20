@@ -1,0 +1,57 @@
+h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=1024x768);
+    background-size: cover;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(45, 111, 211);
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+
+.Menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.Menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Menu-horizontal > li:hover{
+    background-color: rgb(124, 167, 231);
+}
+
+.Menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+}
+.Menu-horizontal li:hover .Menu-vertical{
+    display: block;
+
+}
+.Menu-vertical li:hover{
+    background-color: rgb(0, 0, 0);
+}
+.Menu-vertical li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}
